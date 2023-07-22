@@ -1,0 +1,223 @@
+body {
+    background: url(https://thumbs.dreamstime.com/b/old-motion-picture-film-reel-film-strip-vintage-background-31478645.jpg);
+    backdrop-filter: blur(10px);
+    backdrop-filter: grayscale(60%),brightness(60%);
+
+}
+
+
+.header {
+    background-color: #333;
+}
+
+.header .container {
+    background: transparent !important;
+}
+
+.header .navbar {
+    background: transparent !important;
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-link.active {
+    color: yellow !important;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+}
+.carousel img{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.btn ion-icon{
+    color: #fff;
+    font-size: 70px;
+}
+
+.btn {
+    background-color: transparent !important;
+}
+.btnbtn-primary{
+    background-color:chocolate;
+    color:#fff;
+    padding: 15px;
+}
+
+.btn:is(:hover :focus) {
+    border: none;
+    outline: none;
+}
+
+.css-fuu2mr{
+    font-size: 30px;
+    margin-inline-start: 30px;
+    font-weight: 500;
+    
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    background-color: #00000033;
+}
+
+.bold {
+    font-weight: 600;
+    margin-inline: 17%;
+    color: #0e1e4e;
+}
+
+.bold1{
+    font-weight: 600;
+    margin-inline: 25%;
+    color: #0e1e4e;
+}
+.bold2{
+    font-weight: 600;
+    margin-inline: 17%;
+    color: #0e1e4e;
+}
+
+
+.text-center{
+    font-weight: 800;
+    margin-inline: auto;
+    color: #0e1e4e;
+}
+
+.px-5{
+    font-weight: 200;
+    color: black;
+    margin-inline: 50px;
+    font-size: 20px;
+}
+
+.cardswrapper{
+    display: flex;
+}
+
+.card{
+    margin: 1.5em;
+    width: calc(100%/3);
+}
+
+.card{
+      background-color:#2d82e433;
+}
+@media  screen and (max-width: 567px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+    
+}
+.image-wrapper{
+    height: 22vw;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-block: 30px;
+}
+.image-wrapper img{
+    max-width:100%;
+    max-height: 100%;
+
+}
+ .cards-wrapper{
+    display: flex;
+ }
+
+ .card2{
+    margin: 1.5em;
+    width: calc(100%/3);
+    background-color: #2d82e433;
+    padding: 30px;
+ }
+ @media  screen and (max-width: 567px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+}
+ 
+ .image-wrapper2{
+    height: 22vw;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+ .image-wrapper2 img{
+    max-width:100%;
+    max-height: 100%;
+ }
+
+ .card-body{
+    margin-inline-start: 35px;
+    margin-block-start: 30px;
+    color: black;
+ }
+
+ .card-body1{
+    margin-inline: 65px;
+    margin-block: 30px;
+    color: black;
+ }
+
+ .card-body2{
+    margin-block-start: 10px;
+    margin-inline: 20px;
+    color: black;
+ }
+
+ .video{
+    margin-block: 50px;
+    margin-inline: 50px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    align-items:center;
+    justify-content: center;
+    box-sizing: border-box;
+
+ }
+ .title-block{
+    margin-inline-start: 27%;
+ }
+ .card-group{
+    display: flex;
+ }
+ footer{
+    background-color: #333;
+    padding: 70px;
+ }
+ .footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+ .footer-col h4{
+    font-size: 30px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container{
+    margin: auto;
+    max-width: 1170px;
+ }
